@@ -1,10 +1,13 @@
 import React from 'react'
-import {StyledTopBar} from './styles'
+import PageTitle from 'components/PageTitle';
+import PageNav from 'components/PageNav';
+import { StyledTopBar } from './styles'
 
 const TopBar = () => {
   return (
     <StyledTopBar>
-      esta es el topbar
+      <PageNav></PageNav>
+      <PageTitle></PageTitle>
     </StyledTopBar>
   )
 }

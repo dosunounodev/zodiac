@@ -1,12 +1,17 @@
-import React from 'react'
-import {StyledFooter} from './styles'
+import React from 'react';
+import { StyledFooter, FooterText } from './styles';
 
 const Footer = () => {
   return (
     <StyledFooter>
-      <p>este es el footer</p>
+      <FooterText>
+        Made with 🧡 by{' '}
+        <a href="https://dosunounodev.com/" target="_blank" rel="noreferrer">
+          dosunounodev
+        </a>
+      </FooterText>
     </StyledFooter>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
