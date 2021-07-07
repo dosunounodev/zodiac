@@ -6,6 +6,7 @@ const HomeWrapper = styled.section`
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin: auto;
 `;
 
 const HomeText = styled.p`

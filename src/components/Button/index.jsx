@@ -1,11 +1,19 @@
 import React from 'react';
 import { StyledButton, StyledLink } from './styles';
 
-const Button = ({ children, onClick, isLink, to }) => {
+const Button = ({ children, secondary, disabled, isLink, to, onClick }) => {
   if (isLink) {
-    return <StyledLink to={to}>{children}</StyledLink>;
+    return (
+      <StyledLink secondary={secondary} disabled={disabled} to={to}>
+        {children}
+      </StyledLink>
+    );
   }
-  return <StyledButton onClick={onClick}>{children}</StyledButton>;
+  return (
+    <StyledButton secondary={secondary} disabled={disabled} onClick={onClick}>
+      {children}
+    </StyledButton>
+  );
 };
 
 export default Button;
