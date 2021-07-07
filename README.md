@@ -1,6 +1,6 @@
 # Zodiac 🌠
 
-A Zodiac Horoscope App that also have a bday countdown
+A Zodiac Horoscope App that also has a bday countdown
 
 ## Techs 🧑‍💻
 
